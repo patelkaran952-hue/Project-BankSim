@@ -73,7 +73,9 @@ FROM transactions
 WHERE fraud = 1
 GROUP BY category;
 
+
 🚀 How to Run the Project
+
 1️⃣ Clone the Repository
    git clone https://github.com/patelkaran952-hue/Project-BankSim.git
    cd Project-BankSim
@@ -85,11 +87,14 @@ GROUP BY category;
 👉 You will see:
 
 📊 Sample Insights
+
 Certain categories contribute disproportionately to fraud
 Fraud transactions tend to occur in specific age groups
 High-value transactions are more likely to be fraudulent
 Fraud distribution is highly imbalanced (very few fraud cases)
+
 📌 Project Structure (Typical)
+
 Project-BankSim/
 │
 ├── app.py                 # Streamlit dashboard
