@@ -79,8 +79,10 @@ GROUP BY category;
 1️⃣ Clone the Repository
    git clone https://github.com/patelkaran952-hue/Project-BankSim.git
    cd Project-BankSim
+
 2️⃣ Install Dependencies
    pip install -r requirements.txt
+
 3️⃣ Run Streamlit App
    streamlit run app.py
 
